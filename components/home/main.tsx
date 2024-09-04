@@ -10,7 +10,7 @@ export default function main() {
             <h2 className={Main.subtitle}>Não basta conquistar a sabedoria, é preciso usa-lá.</h2>
         </main>
             <div className={Main.boxLink}>
-                <Link className={Main.linkInit} href='/'>iniciar</Link>
+                <Link className={Main.linkInit} href='/phrases'>iniciar</Link>
             </div>
         </>
     )

@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5vmin 0;
+
+    .boxImage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        border-radius: 5px;
+        border: 1px solid black;
+        .ImgPhilosopher {
+            width: 90%;
+            height: 90%;
+        }
+    }
+
+    .boxPhrase {
+        width: 70%;
+        height: 100%;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 2vmin;
+
+        .boxTextAndAuthor {
+            display: flex;
+            flex-direction: column;
+            
+            width: 100%;
+            gap: 3vmin;
+
+            .textPhrase {
+                width: 70%;
+                font-size: 5vmin;
+                margin-left: 7vmin;
+               // border: 5px solid red;
+                font-family:sans-serif;
+                font-weight: 900;
+                color: black;
+               // margin: 0;
+                word-wrap: break-word;
+               padding: 2vmin;
+            }
+
+            .authorPhrase {
+                width: 90%;
+                font-size: 3vmin;
+                font-family: sans-serif;
+                padding: 0;
+                margin-left: 7vmin;
+            }
+        }
+
+        .boxPrint {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            width: 90%;
+            height: 20%;
+            margin-bottom: 3vmin;
+
+            .print {
+                border: 1px solid rgb(0, 0, 0);
+                width: 8%;
+                height: 100%;
+                background-color: white;
+                border-radius: 3px;
+
+                .imgPrint {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.boxButtonNextPhrase {
+    width: 100%;
+
+    .buttonNextPhrase {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: 1vmin 5vmin;
+        font-size: 3vmin;
+        margin-left: 3vmin;
+        transition: 0.5s;
+    }
+
+    .buttonNextPhrase:hover {
+        background-color: black;
+        color: white;
+        margin-left: 4vmin;
+    }
+
+}
